@@ -1,7 +1,7 @@
 @use "reset";
 
-$dark: #333;
-$light: #efefef;
+$dark: #efefef;
+$light: #333;
 
 @font-face {
     font-family: "Merriweather Sans";
@@ -47,9 +47,29 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0 var(--step-1);
 }
 
 h1 {
     font-size: var(--step-5);
+}
+
+a {
+    color: dodgerblue;
+}
+
+footer {
+    background-color: #252525;
+    width: 100%;
+    padding: 2rem;
+    margin: 0;
+}
+
+nav {
+    background-color: #252525;
+    width: 100%;
+    padding: 2rem;
+}
+
+main {
+    margin: 0 var(--step-1);
 }
