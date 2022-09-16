@@ -14,7 +14,7 @@ router.get('/', async function(req, res, next) {
         console.log(rows);
 
         res.render('index.njk', {
-            title: 'Kursdemo',
+            title: 'KURSDEMO',
             intro: 'En demosida för att ge ett litet smakprov på tekniken och vad den kan göra.',
             rows: rows
         });
